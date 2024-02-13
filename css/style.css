@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.herospace {
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: sticky;
+    background-attachment: fixed;
+    width: auto;
+    height: 100vh;
+    margin: 0px auto;
+    outline: 1px solid red;
+
+}
+
+
+.nav {
+    display: flex;
+    font-family: 'EB Garamond';
+    padding: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    outline: 1px solid red;
+}
+
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: inline;
+    margin-top: 12%;
+    animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.adventurecard {
+
+}
